@@ -1,0 +1,19 @@
+{
+  "name": "node-api-kit",
+  "version": "1.0.0",
+  "description": "Production-style Express API kit — routes, auth middleware, validation, errors",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["nodejs", "express", "api", "backend"],
+  "author": "Kian Zarandi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  }
+}
